@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calcu.css">
+    <link rel="shortcut icon" href="../img/calculadora.png" type="image/x-icon">
+    <title> Calculadora </title>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h3><u>Calculadora de IMC</u></h3>
+        <label for="nomeUsu"><b>Insira seu Nome Completo:</b></label> <br>
+        <input type="text" placeholder="Insira Seu Nome:" id="nomeId" class="classStyle"> <br><br>
+
+        <label for="masculino"><b>Informe seu Gênero:</b></label> <br>
+        <input type="radio" name="rb" id="rb" value="masculino" checked>
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="rb" id="rb" value="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="rb" id="rb" value="outro">
+        <label for="outro">Outro</label> <br> <br>
+
+        <label for="dataUsu"><b>Insira sua data de Nascimento:</b></label> <br>
+        <input type="date" placeholder="xx-xx-xxxx" id="dataId" class="classStyle"> <br> <br>
+
+        <label for="salario"><b>Insira Seu peso</b></label> <br>
+        <input type="text" placeholder="Insira o Seu Peso" id="salarioBId" class="classStyle"> <br> <br>
+
+        <label for="salario"><b>Insira Sua Altura</b></label> <br>
+        <input type="text" placeholder="Insira sua altura" id="salarioBId" class="classStyle"> <br> <br>
+
+        <div class="res" id="resultado"></div>
+
+        <button type="submit" value="salvar" onclick="executar()" name="wrapper" class="wrapper"> <a href="#demo-modal">Verificar</a></button>
+        <button type="reset" onclick="clear()" name="wrapper" class="wrapper">Limpar</button>
+    </div>
+
+    <!--
+    <div class="wrapper">
+      
+    </div>
+    -->
+
+    <div id="demo-modal" class="modal">
+        <div class="modal__content">
+            <h1>Modal com HTML e CSS</h1>
+
+            <p>
+                Olá
+            </p>
+
+            <div class="modal__footer">
+                <a href="#" class="modal__footer-btn-close"> Fechar </a>
+            </div>
+
+            <!--
+            <a href="#" class="modal__close">&times;</a>
+            -->
+        </div>
+    </div>
+
+    <script src="js/calc.js"></script>
+
+</body>
+
+</html>

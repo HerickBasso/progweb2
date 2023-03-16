@@ -1,0 +1,26 @@
+*{
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+    border: none;
+    text-align: center;
+}
+body{
+    background-color: rgb(209, 85, 85);
+}
+button{
+    background-color: red;
+}
+input{
+    color: black;
+}
+h1{
+    font-size: 30px;
+    color: green;
+    font-style: oblique;
+}
+.prod{
+   
+   font-size: 30px;
+   color: darkmagenta;
+}
